@@ -17,3 +17,20 @@ O sistema fornece o relatório individual ao usuário comum e um relatório gera
 - Na tela do membro, visualizar opções de: editar perfil, histórico de eventos, saldo de horas, inscrever em eventos abertos
 - Na tela de admin, visualizar tabela de membros, ver histórico de membros e seu saldo de horas, gerenciar eventos
 
+## 2.1 Landing Page
+- Título do projeto
+- Menu lateral esquerdo com principais rotas para outras páginas
+- Menu superior direito para área de acesso do membro e do admin
+- Quadro principal com as últimas notícias, em formato de blog
+
+## 2.2 Tela do membro
+- Na tela principal, apresentar dashboard com informações
+    - Últimas eventos inscritos e data de participação
+    - Gráfico em pizza com horas realizadas, percentual realizado e percentual restante para completar a carga horária
+    - Menu lateral direito com rotas para: editar perfil, histórico completo de eventos, saldo de horas (dashboard principal), eventos abertos
+
+## 2.3 Tela de admin
+- Na tela principal, apresentar botões com as opções
+    - Gerenciar membros
+    - Gerenciar eventos
+    - Dashboard com números do projeto
