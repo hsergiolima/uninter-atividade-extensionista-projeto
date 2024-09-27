@@ -81,3 +81,23 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
+a {
+    
+}
+
+article {
+    padding: 10px;
+    box-shadow: #000000;
+}
+
+article:hover {
+    background-color: #ccc;
+}
+
+
+.footer-text {
+    font-size: x-small;
+    text-align: center;
+    vertical-align: bottom;
+}

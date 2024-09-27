@@ -5,6 +5,7 @@ function toggleDarkMode() {
 
 document.addEventListener('DOMContentLoaded', (event) => {
     if (localStorage.getItem('darkMode') === 'enabled') {
-        document.body.classList.add('dark-mode'); 
+        document.body.classList.add('dark-mode');
+        document.getElementsByTagName("a").classList.add('dark-mode') ;
     }
 });
