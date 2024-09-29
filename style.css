@@ -2,8 +2,26 @@
 :root {
     --background-color-light: antiquewhite;
     --text-color-light: #000000;
-    --background-color-dark: #35374B;
-    --text-color-dark: #ffffff;
+    --background-color-dark: #000000;
+    --text-color-dark: #ffffff;    
+}
+
+/* Esquema de cores
+    Principal/Fundo: 4B9130
+    1a: A5DA91
+    2a: 73B55B
+    3a: 2B6D12
+    4a: 144900
+
+*/
+
+header {
+    background-color: #4B9130;
+}
+
+#boasvindas {
+    font-family: Helvetica;
+    color: #a5c898;
 }
 
 body {
@@ -83,7 +101,7 @@ input:checked + .slider:before {
 }
 
 a {
-    
+    all: none;
 }
 
 article {
@@ -100,4 +118,21 @@ article:hover {
     font-size: x-small;
     text-align: center;
     vertical-align: bottom;
+}
+
+.navMenu {
+    background-color: white;
+}
+
+.navBar {
+    padding: 2px;
+    display: inline-flex;
+    background-color:#A5DA91;
+    color: 2B6D12;
+}
+
+.navLogin {
+    background-color:#A5DA91;
+    display: block;
+    align-items: right;
 }

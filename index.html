@@ -10,7 +10,7 @@
 <body>
     <header>
         <div>
-            <button onclick="toggleDarkMode()">toggleDarkMode</button>
+             <button onclick="toggleDarkMode()">toggleDarkMode</button>
             <!-- Switch Modo Norturno-->
             <label class="switch">
                 <input type="checkbox">
@@ -18,7 +18,7 @@
             </label>
         </div>
         <div>
-            <h1>Boas-vindas ao Projeto Agroflorestal</h1>
+            <h1 id="boasvindas">Boas-vindas ao Projeto Agroflorestal</h1>
             <img>
         </div>
         <div>
@@ -26,16 +26,32 @@
         </div>
     </header>
     <nav>
-        <div>
-            <a href="index.html">Página inicial</a>
-            <a href="quemsomos.html">Quem Somos</a>
-            <a href="noticias.html">Notícias</a>
-            <a href="https://www.ufrpe.br/br" target="_blank">UFRPE</a>
-            <button>Entrar</button>
-            <button>Cadastrar</button>
+        <div class="navMenu">
+            <div class="navBar">
+                <a href="index.html">Página inicial</a>
+            </div>
+            <div class="navBar">
+                <a href="quemsomos.html">Quem Somos</a>
+            </div>
+            <div class="navBar">
+                <a href="noticias.html">Notícias</a>
+            </div>
+            <div class="navBar">
+                <a href="https://www.ufrpe.br/br" target="_blank">UFRPE</a>
+            </div>
+        </div>
+        <div class="navLogin">
+            <div class="navBar">
+                <button>Entrar</button>
+            </div>
+            <div class="navBar">
+                <button>Cadastrar</button>
+            </div>
         </div>
     </nav>
-    <aside></aside>
+    <aside>
+        <p>Mais detalhes</p>
+    </aside>
     <hr>
     <section>
         <h2>Últimas Notícias</h2>
