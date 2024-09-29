@@ -1,11 +1,3 @@
-/* Set variáveis de ambiente */ 
-:root {
-    --background-color-light: antiquewhite;
-    --text-color-light: #000000;
-    --background-color-dark: #000000;
-    --text-color-dark: #ffffff;    
-}
-
 /* Esquema de cores
     Principal/Fundo: 4B9130
     1a: A5DA91
@@ -15,7 +7,18 @@
 
 */
 
+/* Limpar toda formatação pré-definida */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
     background-color: #4B9130;
 }
 
