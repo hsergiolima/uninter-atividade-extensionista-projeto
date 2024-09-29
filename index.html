@@ -8,99 +8,78 @@
     <title>Projeto Agroflorestal</title>
 </head>
 <body>
-    <header>
+    <header>  
         <nav>
-            <img height="80px" width="700px">
-            <h1 id="boasvindas">Boas-vindas ao Projeto Agroflorestal</h1>                            
-            <div class="navLogin">
-                <div class="navLink">
-                    <button>Entrar</button>
-                </div>
-                <div class="navLink">
-                    <button>Cadastrar</button>
-                </div>
-            </div>
-            <ul class="navMenu">
-                <li class="navBar">
-                    <a href="index.html" class="navLink">Página inicial</a>
-                </li>
-                <li class="navBar">
-                    <a href="quemsomos.html" class="navLink">Quem Somos</a>
-                </li>
-                <li class="navBar">
-                    <a href="noticias.html" class="navLink">Notícias</a>
-                </li>
-                <li class="navBar">
-                    <a href="https://www.ufrpe.br/br" target="_blank">UFRPE</a>
-                </li>
-            </ul>            
-        </nav>        
-    </header>
-    <br>
-    <hr>
-    <main>
+          <img src="./assets/images/logo.png" alt="logo" id="logo">
+          <ul id="navLink">
+            <li>Home</li>
+            <li>New</li>
+            <li>Popular</li>
+            <li>Trending</li>
+            <li>Categories</li>
+          </ul>
+        </nav>
+        <img src="./assets/images/menu.png" alt="menu-icon" id="menu">
+      </header>
+      <main>
         <section>
-            <picture>
-                <source media="(max-width: 3785px)">
-                <img height="100px" width="100px">
-            </picture>
-            <article>
-                <h3>Ações em parceria</h3>
-                <p>
-                    A comunidade do entorno promoveu a ação...
-                    <button>Ler mais</button>
-                </p>
-            </article>
-        </section>
-    </main>
-    
-    <aside>
-        <h2>Notícias</h2>
-        <p>Últimas notícias</p>
-        <p>Eventos abertos</p>
-    </aside>
-    
-    <article>
-        <section>
-            <h3>Ação Casa Coral</h3>
-            <p>Estão abertas as inscrições para partipação...</p>
-            <button>Ler mais</button>
-        </section>
-    </article>        
-
+          <picture>
+            <source media="(max-width: 375px)" srcset="./assets/images/image-web-3-mobile.jpg">
+            <img src="./assets/images/image-web-3-desktop.jpg">
+          </picture>
+          <article>
+            <h1>The Bright Future of Web 3.0?</h1>
+            <p>
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?
+              <button>READ MORE</button>
+            </p>
+          </article>
+        </section>  
+        <aside>
+          <h2>New</h2>
+          <article>
+            <h3>Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </article>
+          <hr>
+          <article>
+            <h3>The Downsides of AI Artistry</h3>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+          </article>
+          <hr>
+          <article>
+            <h3>Is VC Funding Drying Up?</h3>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </article>
+        </aside>
+      </main>
+      <section class="latest">
         <article>
-            <h3>Curso Sistemas Florestais</h3>
-            <p>A disciplia eletiva Sistemas Florestais está com inscrições abertas...</p>
-            <button>Ler mais</button>
-        </article>
-    </section>
-    <section>
-        <h2>Cursos com inscrições abertas</h2>
-        <article>
-            <div class="cardCurso">
-                <div>
-                    <img height="100px" width="100px">
-                </div>
-                <div>
-                    <h4>Manejo Básico</h4>
-                    <p>Este curso é voltado para iniciantes no 
-                    manejo agroflorestal</p>
-                </div>
-            </div>
+          <img src="./assets//images/image-retro-pcs.jpg" alt="">
+          <section class="info">
+            <h3>01</h3>
+            <h4>Reviving Retro PCs</h4>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </section>
         </article>
         <article>
-            <div class="cardCurso">
-                <div>
-                    <img height="100px" width="100px">
-                </div>
-                <div>
-                    <h4>Manejo Básico</h4>
-                    <p>Este curso é voltado para iniciantes no 
-                    manejo agroflorestal</p>
-                </div>
-            </div>
+          <img src="./assets//images/image-top-laptops.jpg" alt="">
+          <section class="info">
+            <h3>02</h3>
+            <h4>Top 10 Laptops of 2022</h4>
+            <p>Our best picks for various needs and budgets.</p>
+          </section>
         </article>
-    </section>
+        <article>
+          <img src="./assets//images/image-gaming-growth.jpg" alt="">
+          <section class="info">
+            <h3>01</h3>
+            <h4>The Growth of Gaming</h4>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </section>
+        </article>
+      </section>
     <footer>
         <p class="footer-text">Desenvolvido por Anderson Souza e Henrique Costa</p>
         <p class="footer-text">Todos os direitos reservados.</p>
