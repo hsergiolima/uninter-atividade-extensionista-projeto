@@ -128,14 +128,13 @@ nav {
 }
 
 .navMenu {
-    background-color: white;
+    background-color: #A5DA91;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .navBar {
     padding: 25px;
-    margin-top: 5px;
     display: inline-flex;
     float: left;
     background-color:#A5DA91;
