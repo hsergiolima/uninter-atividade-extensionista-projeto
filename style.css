@@ -113,26 +113,48 @@ article:hover {
     background-color: #ccc;
 }
 
-
-.footer-text {
-    font-size: x-small;
-    text-align: center;
-    vertical-align: bottom;
+nav {
+    display: block;
 }
 
 .navMenu {
     background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navBar {
-    padding: 2px;
+    padding: 25px;
+    margin-top: 5px;
     display: inline-flex;
+    float: left;
     background-color:#A5DA91;
-    color: 2B6D12;
+    color: #2B6D12;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+
+.navBar:hover {
+    background-color: #2B6D12;
 }
 
 .navLogin {
-    background-color:#A5DA91;
-    display: block;
-    align-items: right;
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+    padding: 10px;
+}
+
+.navLink {
+    all: none;
+}
+
+.cardCurso {
+    display: inline-flex;
+}
+
+
+.footer-text {
+    font-size: x-small;
+    text-align: center;
 }
