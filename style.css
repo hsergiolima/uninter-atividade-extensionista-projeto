@@ -85,3 +85,14 @@ footer > * {
   font-style: italic;
   background: #4B9130;
 }
+
+.quemsomos {
+  padding: 10%
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+}
+
+.quemsomos:hover{
+  background-color: #73B55B;
+}
