@@ -37,7 +37,6 @@ footer {
 
 header,
 footer > * {
-  /* grid-column: 1 / 4; */
   text-align: center;
 }
 
@@ -64,7 +63,6 @@ footer > * {
 .noticia {
   list-style-type: none;
   padding: 1em;
-  /* display: inline-block; */
   width: 95%;
   justify-content: center;
 }
@@ -73,3 +71,17 @@ footer > * {
   background: #A5DA91;
 }
 
+.forminscricao {
+  width: 50%;
+  text-align: center;
+  background-color: #73B55B;
+  margin: auto;
+  padding: 2%;
+}
+
+#enviarInscricao {
+  padding: 10px;
+  margin: auto;
+  font-style: italic;
+  background: #4B9130;
+}
