@@ -48,7 +48,7 @@ footer > * {
   padding: 0;
 }
 
-.sideMenu {
+.menuSuperiorItem {
   list-style-type: none;
   display: inline-flex;
   width: 15%;
@@ -56,14 +56,14 @@ footer > * {
   justify-content: center;
 }
 
-.sideMenu:hover {
+.menuSuperiorItem:hover {
   background-color: #A5DA91;
 }
 
 .noticia {
   list-style-type: none;
   padding: 1em;
-  width: 95%;
+  width: 80%;
   justify-content: center;
 }
 
@@ -72,7 +72,7 @@ footer > * {
 }
 
 .forminscricao {
-  width: 50%;
+  width: 70%;
   text-align: center;
   background-color: #73B55B;
   margin: auto;
