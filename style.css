@@ -92,7 +92,7 @@ main {
   padding: 2%;
 }
 
-#enviarInscricao {
+.botaoenviar {
   padding: 10px;
   margin: auto;
   font-style: italic;
