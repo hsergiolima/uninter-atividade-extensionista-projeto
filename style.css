@@ -32,7 +32,7 @@ article,
 aside,
 footer {
   background: #4B9130;
-  padding: 1em;
+  padding: 1em 0 1em 0;
 }
 
 header,
@@ -62,8 +62,8 @@ footer > * {
 }
 
 article {
-  min-width: 15em;
-  text-align: center;  
+  /* min-width: 15em; */
+  /* text-align: center;   */
 }
 
 .noticia {
