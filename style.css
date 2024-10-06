@@ -6,7 +6,7 @@
     4a: 144900
 
 */
-.grid {
+/* .grid {
     display: grid;
     grid-template-columns: repeat (3, 1fr);
     grid-template-rows: 30% 200px auto;
@@ -17,8 +17,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } */
   
+  body > * {
+    justify-content: center;
+    padding: 1% 20%;
+  }
+
   header,
   nav,
   article,
@@ -38,9 +43,10 @@
   }
 
   .noticia {
+    list-style-type: none;
     padding: 1em;
-    display: inline-block;
-    width: max-content;    
+    /* display: inline-block; */
+    width: 60%;    
   }
 
   .noticia:hover {
@@ -49,6 +55,8 @@
 
   .sideMenu {
     list-style-type: none;
+    display: inline-flex;
+    width: 15%;
     padding: 10px;
   }
 
