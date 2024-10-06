@@ -22,7 +22,8 @@
   
 body > * {
   justify-content: center;
-  padding: 1% 20%;
+  padding: 0 20%;
+  background-color: darkgrey;
 }
 
 header,
@@ -30,7 +31,7 @@ nav,
 article,
 aside,
 footer {
-  background: lightgray;
+  background: #4B9130;
   padding: 1em;
 }
 
@@ -40,6 +41,12 @@ footer > * {
   text-align: center;
 }
 
+.menuSuperior {
+  align-self: center;
+  background-color: #73B55B;
+  margin: 0;
+  padding: 0;
+}
 
 article {
   min-width: 15em;
@@ -65,5 +72,5 @@ article {
 }
 
 .sideMenu:hover {
-  background-color: white;
+  background-color: #A5DA91;
 }
