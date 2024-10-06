@@ -42,10 +42,23 @@ footer > * {
 }
 
 .menuSuperior {
+  width: 100%;
   align-self: center;
   background-color: #73B55B;
-  margin: 0;
+  margin: auto;
   padding: 0;
+}
+
+.sideMenu {
+  list-style-type: none;
+  display: inline-flex;
+  width: 15%;
+  padding: 10px;
+  justify-content: center;
+}
+
+.sideMenu:hover {
+  background-color: #A5DA91;
 }
 
 article {
@@ -64,13 +77,3 @@ article {
   background: white;
 }
 
-.sideMenu {
-  list-style-type: none;
-  display: inline-flex;
-  width: 15%;
-  padding: 10px;
-}
-
-.sideMenu:hover {
-  background-color: #A5DA91;
-}
