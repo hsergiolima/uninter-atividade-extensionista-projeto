@@ -34,12 +34,14 @@
   }
   
   header,
-  footer {
-    grid-column: 1 / 4;
+  footer > * {
+    /* grid-column: 1 / 4; */
+    text-align: center;
   }
   
   article {
     min-width: 15em;
+    text-align: center;
   }
 
   .noticia {
