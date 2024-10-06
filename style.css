@@ -63,17 +63,18 @@ footer > * {
 
 article {
   min-width: 15em;
-  text-align: center;
+  text-align: center;  
 }
 
 .noticia {
   list-style-type: none;
   padding: 1em;
   /* display: inline-block; */
-  width: 60%;    
+  width: 95%;
+  justify-content: center;
 }
 
 .noticia:hover {
-  background: white;
+  background: #A5DA91;
 }
 
