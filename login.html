@@ -9,21 +9,37 @@
 </head>
 <body>
     <div>
-        <header>
-          <div>
-            <h1>Projeto Agrofloresta UFRPE</h1>
-          </div>
-        </header>
-        <nav>
-          <div class="menuSuperior">
-            <ul>
-              <li class="menuSuperiorItem"><a href="index.html">Início</a></li>
-              <li class="menuSuperiorItem"><a href="cursos.html">Cursos</a></li>
-              <li class="menuSuperiorItem"><a href="biblioteca.html">Biblioteca</a></li>
-              <li class="menuSuperiorItem"><a href="quemsomos.html">Quem Somos</a></li>
-              <li class="menuSuperiorItem">Entre em Contato</li>
-            </ul>
-          </div>
-        </nav>
+      <header>
+        <div>
+          <h1><a href="index.html">Projeto Agrofloresta UFRPE</a></h1>
+        </div>
+      </header>
+      <nav>
+        <div class="menuSuperior">
+          <ul>
+            <a href="index.html"><li class="menuSuperiorItem">Início</li></a>
+            <a href="cursos.html"><li class="menuSuperiorItem">Cursos</li></a>
+            <a href="biblioteca.html"><li class="menuSuperiorItem">Biblioteca</li></a>
+            <a href="quemsomos.html"><li class="menuSuperiorItem">Quem Somos</a></li></a>
+            <a href="membro.html"><li class="menuSuperiorItem">Área de Membro</li></a>
+          </ul>
+        </div>
+      </nav>
+      <main>
+        <div class="forminscricao">
+          <h2>Login</h2>
+          <form>
+            <label for="email">E-<strong>mail:</strong>&emsp;</label>
+            <input type="text" placeholder="E-mail"><br>
+            <label for="password"><strong>Password:</strong></label>
+            <input type="password"><br>
+            <button type=submit onclick=" window.open('membro.html'); return true;"> PDF </button>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <p>Projeto desenvolvido por Anderson Souza e Henrique Costa. Todos os direitos reservados.</p>        
+      </footer>
+    </div>
 </body>
 </html>
