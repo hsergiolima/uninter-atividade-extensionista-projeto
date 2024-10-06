@@ -38,6 +38,7 @@ footer {
 header,
 footer > * {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .menuSuperior {
