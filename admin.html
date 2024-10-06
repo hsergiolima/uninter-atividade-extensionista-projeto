@@ -9,27 +9,103 @@
 </head>
 <body>
     <div>
-        <header>
-          <div>
-            <h1>Projeto Agrofloresta UFRPE</h1>
-          </div>
-        </header>
-        <nav>
-          <div class="menuSuperior">
-            <ul>
-              <li class="menuSuperiorItem"><a href="index.html">Início</a></li>
-              <li class="menuSuperiorItem"><a href="cursos.html">Cursos</a></li>
-              <li class="menuSuperiorItem"><a href="biblioteca.html">Biblioteca</a></li>
-              <li class="menuSuperiorItem"><a href="quemsomos.html">Quem Somos</a></li>
-              <li class="menuSuperiorItem">Entre em Contato</li>
-            </ul>
-          </div>
-        </nav>
-    <footer>
-        <p>
-            Projeto desenvolvido por Anderson Souza e Henrique Costa.
-            Todos os direitos reservados.
-        </p>
-    </footer>
+      <header>
+        <div>
+          <h1><a href="index.html">Projeto Agrofloresta UFRPE</a></h1>
+        </div>
+      </header>
+      <nav>
+        <div class="menuSuperior">
+          <ul>
+            <a href="index.html"><li class="menuSuperiorItem">Início</li></a>
+            <a href="cursos.html"><li class="menuSuperiorItem">Cursos</li></a>
+            <a href="biblioteca.html"><li class="menuSuperiorItem">Biblioteca</li></a>
+            <a href="quemsomos.html"><li class="menuSuperiorItem">Quem Somos</li></a>
+            <a href="login.html"><li class="menuSuperiorItem">Área de Membro</li></a>
+          </ul>
+        </div>
+      </nav>
+      <main>
+        <div class="cartao">
+          <h2>Área do Administrador</h2>
+          <h3>Gerenciamento de Usuários</h3>
+          <table>
+            <tr>
+              <th><strong>Matrícula</strong></th>
+              <th><strong>Nome</strong></th>
+              <th><strong>Curso</strong></th>
+              <th><strong>Carga Horária Total</strong></th>
+              <th><strong>Status</strong></th>
+              <th colspan="2"><strong>Ações</strong></th>
+            </tr>
+            <tr>
+              <td>4376088</td>
+              <td>Henrique Costa</td>
+              <td>Engenharia Florestal</td>
+              <td>64h</td>
+              <td><strong>ATIVO</strong></td>
+              <td><button>Editar</button></td>
+              <td><button>Desabilitar</button></td>
+            </tr>
+            <tr>
+              <td>4330643</td>
+              <td>Anderson de Souza</td>
+              <td>Engenharia Agronômica</td>
+              <td>64h</td>
+              <td><strong>ATIVO</strong></td>
+              <td><button>Editar</button></td>
+              <td><button>Desabilitar</button></td>
+            </tr>
+            <tr>
+              <td colspan="4"><strong>TOTAL ATIVO</strong></td>
+              <td><strong>2</strong></td>
+            </tr>
+          </table>
+        </div>
+        <div class="cartao">
+          <h3>Gerenciamento de Cursos e Eventos</h3>
+          <table>
+            <tr>
+              <th><strong>Código</strong></th>
+              <th><strong>Descrição</strong></th>
+              <th><strong>Tipo</strong></th>
+              <th><strong>Departamento</strong></th>
+              <th><strong>Área</strong></th>
+              <th><strong>Carga horária</strong></th>
+              <th><strong>Créditos</strong></th>
+              <th colspan="2"><strong>Ações</strong></th>
+            </tr>
+            <tr>
+              <td>PCFL7316</td>
+              <td>Sistema Agroflorestais</td>
+              <td>Curso</td>
+              <td>Ciência Florestal</td>
+              <td>Ciências Florestais</td>
+              <td>64h</td>
+              <td>04</td>
+              <td><button>Editar</button></td>
+              <td><button>Desabilitar</button></td>
+            </tr>
+            <tr>
+              <td>LIVRE</td>
+              <td>Manejo Florestal em Comunidade</td>
+              <td>Evento</td>
+              <td>Ciência Florestal</td>
+              <td>Projeto de Extensão</td>
+              <td>4h</td>
+              <td>0</td>
+              <td><button>Editar</button></td>
+              <td><button>Desabilitar</button></td>
+            </tr>
+          </table>
+        </div>
+      </main>
+      <footer>
+          <p>
+              Projeto desenvolvido por Anderson Souza e Henrique Costa.
+              Todos os direitos reservados.
+          </p>
+      </footer>
+    </div>
 </body>
 </html>
