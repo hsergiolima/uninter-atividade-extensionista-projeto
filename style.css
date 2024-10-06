@@ -36,4 +36,22 @@
   article {
     min-width: 15em;
   }
-  
+
+  .noticia {
+    padding: 1em;
+    display: inline-block;
+    width: max-content;    
+  }
+
+  .noticia:hover {
+    background: white;
+  }
+
+  .sideMenu {
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  .sideMenu:hover {
+    background-color: white;
+  }
