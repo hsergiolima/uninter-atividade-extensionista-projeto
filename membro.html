@@ -8,30 +8,62 @@
     <title>Agroflorestal: Admin</title>
 </head>
 <body>
-    <header>
+    <div>
+      <header>
         <div>
-            <button onclick="toggleDarkMode()">toggleDarkMode</button>
-            <!-- Switch Modo Norturno-->
-            <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-            </label>
+          <h1>Projeto Agrofloresta UFRPE</h1>
         </div>
-        <div></div>
-            <h1>Boas-vindas ao Projeto Agroflorestal</h1>
-            <img>
+      </header>
+      <nav>
+        <div class="menuSuperior">
+          <ul>
+            <a href="index.html"><li class="menuSuperiorItem">Início</li></a>
+            <a href="cursos.html"><li class="menuSuperiorItem">Cursos</li></a>
+            <a href="biblioteca.html"><li class="menuSuperiorItem">Biblioteca</li></a>
+            <a href="quemsomos.html"><li class="menuSuperiorItem">Quem Somos</li></a>
+            <a href="login.html"><li class="menuSuperiorItem">Área de Membro</li></a>
+          </ul>
         </div>
-        <div>
-            
+      </nav>
+      <main>
+        <div class="cartao">
+          <h2>Dados Pessoais</h2>
+          <p><strong>Nome:</strong> Henrique Costa</p>
+          <p><strong>Matrícula: </strong>4376088</p>
+          <p><strong>Curso: </strong>Engenharia Florestal</p>
+          <p><strong>Status: </strong>Ativo</p>
         </div>
-    </header>
-    <nav>
-        <div>
-            <a href="index.html">Página inicial</a>
-            <a href="quemsomos.html">Quem Somos</a>
-            <a href="noticias.html">Notícias</a>
-            <a href="https://www.ufrpe.br/br" target="_blank">UFRPE</a>
+        <div class="cartao">
+          <h2>Histórico de Curso e Eventos</h2>
+          <table>
+            <tr>
+              <th><strong>Data de Conclusão</strong></th>
+              <th><strong>Descrição</strong></th>
+              <th><strong>Tipo</strong></th>
+              <th><strong>Carga Horária</strong></th>
+            </tr>
+            <tr>
+              <td>30/09/2024</td>
+              <td>Sistemas Florestais</td>
+              <td>Curso</td>
+              <td>60h</td>
+            </tr>
+            <tr>
+              <td>05/09/2024</td>
+              <td>Manejo Florestal em comunidade</td>
+              <td>Evento</td>
+              <td>4h</td>
+            </tr>
+            <tr>
+              <td colspan="3"><strong>TOTAL</strong></td>
+              <td><strong>64h</strong></td>
+            </tr>
+          </table>
         </div>
-    </nav>
+      </main>
+      <footer>
+        <p>Projeto desenvolvido por Anderson Souza e Henrique Costa. Todos os direitos reservados.</p>        
+      </footer>
+    </div>
 </body>
 </html>

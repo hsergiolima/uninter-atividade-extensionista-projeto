@@ -8,30 +8,48 @@
     <title>Agroflorestal: Admin</title>
 </head>
 <body>
-    <header>
+    <div>
+      <header>
         <div>
-            <button onclick="toggleDarkMode()">toggleDarkMode</button>
-            <!-- Switch Modo Norturno-->
-            <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-            </label>
+          <h1><a href="index.html">Projeto Agrofloresta UFRPE</a></h1>
         </div>
-        <div></div>
-            <h1>Boas-vindas ao Projeto Agroflorestal</h1>
-            <img>
+      </header>
+      <nav>
+        <div class="menuSuperior">
+          <ul>
+            <a href="index.html"><li class="menuSuperiorItem">Início</li></a>
+            <a href="cursos.html"><li class="menuSuperiorItem">Cursos</li></a>
+            <a href="biblioteca.html"><li class="menuSuperiorItem">Biblioteca</li></a>
+            <a href="quemsomos.html"><li class="menuSuperiorItem">Quem Somos</li></a>
+            <a href="login.html"><li class="menuSuperiorItem">Área de Membro</li></a>
+          </ul>
         </div>
-        <div>
-            
+      </nav>
+      <main>
+        <div class="formulario">
+          <h2>Login</h2>
+          <form>
+            <label for="email"><strong>E-mail:</strong>&emsp;</label>
+            <input type="text" placeholder="E-mail"><br>
+            <label for="password"><strong>Password:</strong></label>
+            <input type="password"><br>
+            <button class="botaoenviar" onclick=" window.open('membro.html'); return true;"> ENTRAR </button>
+          </form>
         </div>
-    </header>
-    <nav>
-        <div>
-            <a href="index.html">Página inicial</a>
-            <a href="quemsomos.html">Quem Somos</a>
-            <a href="noticias.html">Notícias</a>
-            <a href="https://www.ufrpe.br/br" target="_blank">UFRPE</a>
+        <div class="formulario">
+          <h2>Admin</h2>
+          <form>
+            <label for="email"><strong>E-mail:</strong>&emsp;</label>
+            <input type="text" placeholder="E-mail"><br>
+            <label for="password"><strong>Password:</strong></label>
+            <input type="password"><br>
+            <button class="botaoenviar" onclick=" window.open('admin.html'); return true;"> ENTRAR </button>
+          </form>
         </div>
-    </nav>
+      </main>
+      <footer>
+        <p>Projeto desenvolvido por Anderson Souza e Henrique Costa. Todos os direitos reservados.</p>        
+      </footer>
+    </div>
 </body>
 </html>

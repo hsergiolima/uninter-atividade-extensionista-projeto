@@ -5,86 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <title>Projeto Agroflorestal</title>
+    <title>Projeto Agroflorestal</title>    
 </head>
 <body>
-    <header>  
-        <nav>
-          <img src="./assets/images/menu.jpg" alt="logo" id="logo">
-          <ul id="navLink">
-            <li>Home</li>
-            <li>Notícia</li>
-            <li>Cursos</li>
-            <li>Eventos</li>
-            <li>Quem Somos</li>
-            <li>Login</li>
-            <li>Fale Conosco</li>
-          </ul>
-        </nav>
-        <img src="./assets/images/menu.jpg" alt="menu-icon" id="menu">
+    <div>
+      <header>
+        <div>
+          <h1><a href="index.html">Projeto Agrofloresta UFRPE</a></h1>
+        </div>
       </header>
+      <nav>
+        <div class="menuSuperior">
+          <ul>
+            <a href="index.html"><li class="menuSuperiorItem">Início</li></a>
+            <a href="cursos.html"><li class="menuSuperiorItem">Cursos</li></a>
+            <a href="biblioteca.html"><li class="menuSuperiorItem">Biblioteca</li></a>
+            <a href="quemsomos.html"><li class="menuSuperiorItem">Quem Somos</li></a>
+            <a href="login.html"><li class="menuSuperiorItem">Área de Membro</li></a>
+          </ul>
+        </div>
+      </nav>
       <main>
-        <section>
-          <picture>
-            <source media="(max-width: 375px)" srcset="./assets/images/image-web-3-mobile.jpg">
-            <img src="./assets/images/image-web-3-desktop.jpg">
-          </picture>
-          <article>
-            <h1>O Futuro da Sustentabilidade</h1>
-            <p>
-              Conheça uma nova forma de usar o solo e produzir alimentos
-              aliando produtividade e sustentabilidade.
-              <button>LEIA MAIS</button>
-            </p>
-          </article>
-        </section>  
-        <aside>
-          <h2>New</h2>
-          <article>
-            <h3>Hydrogen VS Electric Cars</h3>
-            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-          </article>
-          <hr>
-          <article>
-            <h3>The Downsides of AI Artistry</h3>
-            <p>What are the possible adverse effects of on-demand AI image generation?</p>
-          </article>
-          <hr>
-          <article>
-            <h3>Is VC Funding Drying Up?</h3>
-            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
-          </article>
-        </aside>
-      </main>
-      <section class="latest">
-        <article>
-          <img src="./assets//images/image-retro-pcs.jpg" alt="">
-          <section class="info">
-            <h3>01</h3>
-            <h4>Reviving Retro PCs</h4>
-            <p>What happens when old PCs are given modern upgrades?</p>
-          </section>
-        </article>
-        <article>
-          <img src="./assets//images/image-top-laptops.jpg" alt="">
-          <section class="info">
-            <h3>02</h3>
-            <h4>Top 10 Laptops of 2022</h4>
-            <p>Our best picks for various needs and budgets.</p>
-          </section>
-        </article>
-        <article>
-          <img src="./assets//images/image-gaming-growth.jpg" alt="">
-          <section class="info">
-            <h3>01</h3>
-            <h4>The Growth of Gaming</h4>
-            <p>How the pandemic has sparked fresh opportunities.</p>
-          </section>
-        </article>
-      </section>
-    <footer>
-        <p class="footer-text">Desenvolvido por Anderson Souza e Henrique Costa</p>
-        <p class="footer-text">Todos os direitos reservados.</p>
-    </footer>
+        <ul>
+          <a href="cursos.html"><li class="cartao">
+            <h3>Cursos em Aberto</h3>
+            <p>Veja nossa lista de cursos com inscrições abertas</p>
+          </li class="cartao"></a>
+          <li class="cartao">
+            <h3>Ação na Comunidae</h3>
+            <p>Inscreva-se na próxima ação comunitária de manejo agroflorestal</p>
+          </li class="cartao">
+          <a href="biblioteca.html">
+            <li class="cartao">
+              <h3>Nova Biblioteca</h3>
+              <p>Consulte textos, artigos, manuais e referências em nossa bilioteca virtual</p>
+            </li class="cartao">
+          </a>
+          <li class="cartao">
+            <h3>Congresso em Agrofloresta</h3>
+            <p>Participe da organização da próxima edição do Congresso Regional em Agrofloresta</p>
+          </li class="cartao">
+        </ul>
+      </main>        
+      <aside>
+        <div class="formulario">
+          <form>
+            <h3>Inscreva-se e faça parte do Projeto</h3>
+            <label for="nome">Nome: &nbsp;</label>
+            <input type="text" placeholder="Nome"><br>
+            <label for="email">E-mail:&nbsp;</label>
+            <input type="text" placeholder="E-mail"><br>
+            <input type="submit" value="Enviar" class="botaoenviar">
+          </form>
+        </div>
+      </aside>
+      <footer>
+        <p>Projeto desenvolvido por Anderson Souza e Henrique Costa. Todos os direitos reservados.</p>        
+      </footer>
+    </div>
 </body>
 </html>
